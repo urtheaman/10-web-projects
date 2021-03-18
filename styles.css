@@ -16,23 +16,68 @@ h1 {
     margin-bottom: 1.5rem;
 }
 
-ul {
+nav {
+    position: fixed;
+    padding: 2rem;
+    width: 100%;
+    top: 0;
+    background-color: #f7f7f7;
+    display: flex;
+    justify-content: space-around;
+}
+
+nav div {
+    font-size: 2rem;
+    font-weight: bold;
+    color: rebeccapurple;
+}
+
+nav ul {
+    margin-top: 0.15rem;
+    list-style-type: none;
+    display: flex;
+    width: 40%;
+    justify-content: space-around;
+}
+
+nav ul li a.link {
+    font-size: 1.5rem;
+}
+
+main ul {
     list-style-type: decimal;
 }
 
-ul li {
-}
-
-ul li a {
+.link {
     text-decoration: none;
     font-size: 1.2rem;
     color: black;
 }
 
-ul li a:hover {
+.link:hover {
     color: blue;
 }
 
-ul li a:active {
+.link:active {
     color: red;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    padding: 2rem;
+    width: 100%;
+    text-align: center;
+    font-size: 1.2rem;
+    background-color: rebeccapurple;
+    color: white;
+}
+
+footer a.link {
+    color: white;
+}
+
+footer a.link:hover {
+    text-decoration: underline;
+    color: white;
 }
