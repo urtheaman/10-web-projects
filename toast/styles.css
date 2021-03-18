@@ -1,0 +1,52 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    position: relative;
+}
+
+#toastBtn {
+    padding: 1rem 1.5rem;
+    background-color: rebeccapurple;
+    color: white;
+    border: none;
+    border-radius: 0.5rem;
+    font-size: 1.2rem;
+    border: 0.15rem solid rebeccapurple;
+    outline: none;
+    cursor: pointer;
+}
+
+#toastBtn:hover {
+    background-color: white;
+    color: rebeccapurple;
+}
+
+#toastBtn:active {
+    transform: translate(0.05rem, 0.05rem);
+}
+
+#toast-container {
+    position: absolute;
+    bottom: 0;
+    right: 1rem;
+}
+
+.toast {
+    background-color: rebeccapurple;
+    color: white;
+    padding: 1.5rem 2.5rem;
+    border: none;
+    border-radius: 0.5rem;
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+    cursor: pointer;
+}
